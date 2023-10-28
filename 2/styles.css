@@ -1,0 +1,222 @@
+body {
+    font-family: Arial;
+}
+
+#wrapper-grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+#secondary-card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 2rem;
+}
+
+
+#main-card-main-section {
+    background-color: hsl(246, 80%, 60%);
+    border-radius: 30px 30px 30px 0px;
+    padding-left: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+#main-card {
+    width: 70%;
+    /*height: 100%;*/
+}
+
+#main-card-time-frequency {
+    position: relative;
+    margin-top: -3rem;
+    background-color: hsl(235, 46%, 20%);
+    padding-top: 4rem;
+    padding-left: 3rem;
+    padding-bottom: 1rem;
+    z-index: -1;
+    color: white;
+}
+
+#user-image {
+    width: 40%;
+    height: 40%;
+}
+
+#main-user-name {
+    font-size: 60px;
+}
+
+#work-card-background {
+    background-color: hsl(15, 100%, 70%);
+    padding-bottom: 1rem;
+    width: 75%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+#work-card {
+    position: relative;
+    background-color: hsl(235, 46%, 20%);
+    margin-top: -2rem;
+    z-index: 1;
+    padding-top: 0.5rem;
+    padding-left: 2rem;
+    width: 70%;
+    border-radius: 25px 25px 25px 25px;
+    padding-bottom: 2rem;
+}
+
+#work-card-image{
+    position: relative;
+    transform: translateX(400%);
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+h4 {
+    color: white;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+}
+
+
+.card-ellipsis {
+    height: 100%;
+    padding-top: 2rem;
+    padding-right: 2rem;
+}
+
+#play-card-background {
+    background-color:  hsl(195, 74%, 62%);
+    padding-bottom: 1rem;
+    width: 75%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+#play-card {
+    position: relative;
+    background-color: hsl(235, 46%, 20%);
+    margin-top: -2rem;
+    z-index: 1;
+    padding-top: 0.5rem;
+    padding-left: 2rem;
+    width: 70%;
+    border-radius: 25px 25px 25px 25px;
+    padding-bottom: 2rem;
+}
+
+#play-card-image {
+    position: relative;
+    transform: translateX(400%);
+}
+
+#study-card-background {
+    background-color:  hsl(348, 100%, 68%);
+    padding-bottom: 1rem;
+    width: 75%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+#study-card {
+    position: relative;
+    background-color: hsl(235, 46%, 20%);
+    margin-top: -2rem;
+    z-index: 1;
+    padding-top: 0.5rem;
+    padding-left: 2rem;
+    width: 70%;
+    border-radius: 25px 25px 25px 25px;
+    padding-bottom: 2rem;
+}
+
+#study-card-image {
+    position: relative;
+    transform: translateX(400%);
+}
+
+#exercise-card-background {
+    background-color:  hsl(145, 58%, 55%);
+    padding-bottom: 1rem;
+    width: 75%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+#exercise-card {
+    position: relative;
+    background-color: hsl(235, 46%, 20%);
+    margin-top: -2rem;
+    z-index: 1;
+    padding-top: 0.5rem;
+    padding-left: 2rem;
+    width: 70%;
+    border-radius: 25px 25px 25px 25px;
+    padding-bottom: 2rem;
+}
+
+#exercise-card-image{
+    position: relative;
+    transform: translateX(400%);
+}
+
+#social-card-background {
+    background-color:  hsl(145, 58%, 55%);
+    padding-bottom: 1rem;
+    width: 75%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+#social-card {
+    position: relative;
+    background-color: hsl(235, 46%, 20%);
+    margin-top: -2rem;
+    z-index: 1;
+    padding-top: 0.5rem;
+    padding-left: 2rem;
+    width: 70%;
+    border-radius: 25px 25px 25px 25px;
+    padding-bottom: 2rem;
+}
+
+#social-card-image {
+    position: relative;
+    transform: translateX(400%);
+}
+
+#selfcare-card-background {
+    background-color:  hsl(145, 58%, 55%);
+    padding-bottom: 1rem;
+    width: 75%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+#selfcare-card {
+    position: relative;
+    background-color: hsl(235, 46%, 20%);
+    margin-top: -2rem;
+    z-index: 1;
+    padding-top: 0.5rem;
+    padding-left: 2rem;
+    width: 70%;
+    border-radius: 25px 25px 25px 25px;
+    padding-bottom: 2rem;
+}
+
+#selfcare-card-image {
+    position: relative;
+    transform: translateX(500%);
+}
+
+body {
+    background-color: hsl(226, 43%, 10%);
+}
